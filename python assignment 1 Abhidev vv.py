@@ -25,9 +25,7 @@ print(Last_name, First_name)
 
 Diameter = int(input("Enter the diameter: "))
 radius =int(Diameter / 2)
-cube = 3
-radius_cube=radius**cube
-Volume_Sphere = (4*22)%(3*7)*radius_cube
+Volume_Sphere = (4*22)%(3*7)*radius**3
 print ("Volume of Sphere is: ", Volume_Sphere)
 
 
